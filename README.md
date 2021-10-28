@@ -8,22 +8,22 @@ Projeto requisitado pelo professor [_Edson Mota_](https://www.linkedin.com/in/ed
 
 Totalmente feito em Java utilizando pacotes da própria linguagem.
 
-## Sobre o Projeto
+## 📢 Sobre o Projeto
 
 O projeto tem como objetivo fazer um cadastro de produtos, onde o usuário pode cadastrar um produto. A situação problema é de uma empresa que necessita de uma ferramenta para cadastrar os usuários, tipos de produtos etc.
 
-## Dependências para rodar a aplicação
+## 🎯 Dependências para rodar a aplicação
 
 - `Java 11.0 +`
 - `Compilador Java.`
 
-## Oque aprendi nesse projeto ?
+## 📚 Oque aprendi nesse projeto ?
 
 - Utilização de overcharge nos metodos `@Override`.
 - Refatoração de classes.
 - Utilizar herança de classes.
 
-## Equipe composta por
+## 👨🏾‍🦱 Equipe composta por
 
 - Lucas Pereira Souza.
   
