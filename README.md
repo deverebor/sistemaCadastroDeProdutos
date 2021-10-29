@@ -12,6 +12,14 @@ Totalmente feito em Java utilizando pacotes da própria linguagem.
 
 O projeto tem como objetivo fazer um cadastro de produtos, onde o usuário pode cadastrar um produto. A situação problema é de uma empresa que necessita de uma ferramenta para cadastrar os usuários, tipos de produtos etc.
 
+## Diagrama de Classes
+
+Este diagrama foi utilizado como auxilio na codificação do problema.
+
+Utilizado para moldar a lógica proposta pelo professor. A partir deste ponto consegui desenvolver o código sem problemas, pois a ideia é que o usuário possa cadastrar um produto, e a partir dele, o sistema deve mostrar os produtos cadastrados.
+
+![Diagrama de Classes](assets/diagramaDeClasses.svg)
+
 ## 🎯 Dependências para rodar a aplicação
 
 - `Java 11.0 +`
