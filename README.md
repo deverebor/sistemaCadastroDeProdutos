@@ -4,7 +4,7 @@
   <img src="https://arte.folha.uol.com.br/esporte/copa-2018/palpites-da-copa/images/caixa.gif">
 </p>
 
-Projeto requisitado pelo professor [_Edson Mota_](https://www.linkedin.com/in/edsonmottac/) como forma avaliativa da matéria de POO.
+> Projeto requisitado pelo professor [_Edson Mota_](https://www.linkedin.com/in/edsonmottac/) como forma avaliativa da matéria de POO.
 
 Totalmente feito em Java utilizando pacotes da própria linguagem.
 
