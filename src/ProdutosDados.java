@@ -28,10 +28,9 @@ public class ProdutosDados {
   }
 
   public void returnProductType() {
-    System.out.println("\n------------------------");
-    System.out.println("INFORMAÇÕES DO PRODUTO");
+    System.out.println("\nINFORMAÇÕES DO PRODUTO");
     System.out.println("Nome do produto: " + getProductName());
     System.out.println("Data de envio do produto: " + getProductsData());
-    System.out.println("Preço do produto: " + getProductsPrice());
+    System.out.println("Preço do produto: " + getProductsPrice() + "\n");
   }
 }
