@@ -27,5 +27,7 @@ public class ClienteEngenharia extends ClientesDados {
     System.out.println("O telefone do cliente é: " + getPhone());
     System.out.println("O endereço do cliente é: " + getAdress());
     System.out.println("A data de cadastro do produto é: " + getPostDate());
+    System.out.println("Tipo do engenheiro: " + getEngineeringType());
+    System.out.println("Descrição da atividade deste proficional: " + getActivityDescription());
   }
 }

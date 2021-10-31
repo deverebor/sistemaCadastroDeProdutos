@@ -27,5 +27,7 @@ public class ClienteAdministracao extends ClientesDados {
     System.out.println("O telefone do cliente é: " + getPhone());
     System.out.println("O endereço do cliente é: " + getAdress());
     System.out.println("A data de cadastro do produto é: " + getPostDate());
+    System.out.println("O tipo de consulta para está empresa é: " + getConsultType());
+    System.out.println("Corpo da consulta: " + getConsultData());
   }
 }
