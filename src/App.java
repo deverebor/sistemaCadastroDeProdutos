@@ -1,8 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
         ClienteComputacao clienteComp = new ClienteComputacao();
+        ProdutosDados produtcComp = new ProdutosDados();
+
         ClienteAdministracao clienteAdm = new ClienteAdministracao();
+        ProdutosDados produtcAdm = new ProdutosDados();
+        
         ClienteEngenharia clientEng = new ClienteEngenharia();
+        ProdutosDados produtcEng = new ProdutosDados();
 
         // Configuração do Cliente Computação
 
@@ -13,12 +18,11 @@ public class App {
         clienteComp.setTech("Hardware company");
         clienteComp.setCompanyDescription("Uma empresa de construção e manutenção de hardwares.");
 
-        clienteComp.setProductName("CPU");
-        clienteComp.setProductsData("Uma CPU i7 10th");
-        clienteComp.setProductsPrice("1000.00");
+        produtcComp.setProductName("CPU");
+        produtcComp.setProductsData("Uma CPU i7 10th");
+        produtcComp.setProductsPrice("1000.00");
 
         clienteComp.returnClientType();
-        clienteComp.returnProductType();
 
         // Configuração do Cliente Administração
 
@@ -27,15 +31,12 @@ public class App {
         clienteAdm.setAdress("Pituba");
         clienteAdm.setPostDate("30/10/2021");
         clienteAdm.setConsultType("Qual a melhor forma de investir na minha empresa");
-        clienteAdm.setConsultData(
-                "Estou com dúvida da melhor forma de investir meu dinheiro na minha empresa, quais passos seguir ?");
-
-        clienteAdm.setProductName("Consulta básica no plano da empresa");
-        clienteAdm.setProductsData("Como construir um negócio de sucesso");
-        clienteAdm.setProductsPrice("1500.00");
+        clienteAdm.setConsultData("Estou com dúvida da melhor forma de investir meu dinheiro na minha empresa");
+        produtcAdm.setProductName("Consulta básica no plano da empresa");
+        produtcAdm.setProductsData("Como construir um negócio de sucesso");
+        produtcAdm.setProductsPrice("1500.00");
 
         clienteAdm.returnClientType();
-        clienteAdm.returnProductType();
 
         // Configuração do Cliente Endengenharia
 
@@ -45,12 +46,10 @@ public class App {
         clientEng.setPostDate("08/11/2021");
         clientEng.setEngineeringType("Engenheiro Civil");
         clientEng.setActivityDescription("Construtor de prédios.");
-
-        clientEng.setProductName("Manutenção em uma construção.");
-        clientEng.setProductsData("Revisão no prédio.");
-        clientEng.setProductsPrice("900.00");
+        produtcEng.setProductName("Manutenção em uma construção.");
+        produtcEng.setProductsData("Revisão no prédio.");
+        produtcEng.setProductsPrice("900.00");
 
         clientEng.returnClientType();
-        clientEng.returnProductType();
     }
 }

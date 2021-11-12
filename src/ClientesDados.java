@@ -1,8 +1,9 @@
-public class ClientesDados extends ProdutosDados {
+public class ClientesDados {
   private String name;
   private String phone;
   private String adress;
   private String postDate;
+  private ProdutosDados produtosDados;
 
   public String getName() {
     return this.name;
@@ -16,24 +17,32 @@ public class ClientesDados extends ProdutosDados {
     return this.phone;
   }
 
-  public String setPhone(String phone) {
-    return this.phone = phone;
+  public void setPhone(String phone) {
+    this.phone = phone;
   }
 
   public String getAdress() {
     return this.adress;
   }
 
-  public String setAdress(String adress) {
-    return this.adress = adress;
+  public void setAdress(String adress) {
+    this.adress = adress;
   }
 
   public String getPostDate() {
     return this.postDate;
   }
 
-  public String setPostDate(String postDate) {
-    return this.postDate = postDate;
+  public void setPostDate(String postDate) {
+    this.postDate = postDate;
+  }
+
+  public ProdutosDados getProdutosDados() {
+    return this.produtosDados;
+   }
+
+  public void setProdutosDados(ProdutosDados produtosDados) {
+   this.produtosDados = produtosDados;
   }
 
   public void returnClientType() {
@@ -44,6 +53,10 @@ public class ClientesDados extends ProdutosDados {
     System.out.println("O telefone do cliente é: " + getPhone());
     System.out.println("O endereço do cliente é: " + getAdress());
     System.out.println("A data de cadastro do produto é: " + getPostDate());
+    System.out.println("\n------------------------");
+    System.out.println("INFORMAÇÕES DO PRODUTO");
+    System.out.println("Nome do produto: " + produtosDados.getProductName());
+    System.out.println("Data de envio do produto: " + produtosDados.getProductsData());
+    System.out.println("Preço do produto: " + produtosDados.getProductsPrice() + "\n");
   }
-
 }

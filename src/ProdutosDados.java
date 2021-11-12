@@ -3,6 +3,14 @@ public class ProdutosDados {
   private String productsData;
   private String productsPrice;
 
+  public ProdutosDados(){}
+
+  public ProdutosDados(String productName, String productsData, String productsPrice) {
+    this.productName = productName;
+    this.productsData = productsData;
+    this.productsPrice = productsPrice;
+  }
+
   public String getProductName() {
     return productName;
   }
@@ -25,12 +33,5 @@ public class ProdutosDados {
 
   public void setProductsPrice(String productsPrice) {
     this.productsPrice = productsPrice;
-  }
-
-  public void returnProductType() {
-    System.out.println("\nINFORMAÇÕES DO PRODUTO");
-    System.out.println("Nome do produto: " + getProductName());
-    System.out.println("Data de envio do produto: " + getProductsData());
-    System.out.println("Preço do produto: " + getProductsPrice() + "\n");
   }
 }
